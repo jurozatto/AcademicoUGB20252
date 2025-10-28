@@ -31,3 +31,7 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+
+//alterar as views, ficar esteticamente mais bonito
+//classe departamento (model) e gerar crud completo
