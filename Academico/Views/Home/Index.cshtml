@@ -1,8 +1,42 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<style>
+    body {
+        background-color: #F2F0EA;
+    }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    footer {
+        font-family: Montserrat, sans-serif;
+    }
+
+    h3 {
+        font-family: Montserrat, sans-serif;
+    }
+
+    p {
+        font-family: Montserrat, sans-serif;
+        color: #7D7D7D;
+    }
+
+
+    
+</style>
+
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Didact+Gothic&family=Fjalla+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+        @{
+            ViewData["Title"] = "Home Page";
+        }
+
+        <div class="text-center">
+            <h3 class="display-4">Seja bem-vindo ao <strong>Portal Acadêmico</strong></h3>
+            <p>Acesse as informações disponíveis no cabeçalho da página.</p>
+        </div>
+    </body>
+
+
+</html>
