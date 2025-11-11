@@ -6,6 +6,10 @@
     footer {
         font-family: Montserrat, sans-serif;
     }
+
+    body{
+        font-family: Montserrat, sans-serif;
+    }
 </style>
 
 
@@ -68,9 +72,9 @@
                         @Html.DisplayFor(modelItem => item.CEP)
                     </td>
                     <td>
-                        <a asp-action="Edit" asp-route-id="@item.AlunoId">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.AlunoId">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.AlunoId">Delete</a>
+                        <a asp-action="Edit" asp-route-id="@item.AlunoId">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.AlunoId">Detalhes</a> |
+                        <a asp-action="Delete" asp-route-id="@item.AlunoId">Deletar</a>
                     </td>
                 </tr>
             }
